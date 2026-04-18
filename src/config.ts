@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "http://localhost/", // replace this with your deployed domain
+  website: "https://jkx-home.pages.dev/", // replace this with your deployed domain
   author: "hipi",
   profile: "",
   desc: "金开心的个人博客网站！",
@@ -14,7 +14,7 @@ export const SITE = {
   editPost: {
     enabled: false,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "https://github.com/jkx1998/jkx-home",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
