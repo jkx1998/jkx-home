@@ -31,6 +31,12 @@ export const SOCIALS: Social[] = [
     icon: IconMail,
   },
   {
+    name: "Telegram",
+    href: "https://t.me/awesomejkx",
+    linkTitle: "${SITE.title} on Telegram",
+    icon: IconTelegram,
+  },
+  {
     name: "Instagram",
     href: "https://www.instagram.com/kinghipi995/",
     linkTitle: `${SITE.title} on Instagram`,
@@ -40,27 +46,9 @@ export const SOCIALS: Social[] = [
 
 export const SHARE_LINKS: Social[] = [
   {
-    name: "GitHub",
-    href: "https://github.com/jkx1998",
-    linkTitle: `${SITE.title} on GitHub`,
-    icon: IconGitHub,
-  },
-  {
-    name: "Telegram",
-    href: "https://t.me/awesomejkx",
-    linkTitle: `Share this post via Telegram`,
-    icon: IconTelegram,
-  },
-  {
     name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=wwwjkx@outlook.com",
     linkTitle: `Share this post via email`,
     icon: IconMail,
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/kinghipi995/",
-    linkTitle: `Share this post on Instagram`,
-    icon: IconInstagram,
-  },
+  }
 ] as const;
